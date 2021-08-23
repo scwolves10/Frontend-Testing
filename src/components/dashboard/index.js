@@ -1,5 +1,5 @@
 import { useWeb3React } from "@web3-react/core"
-import { injected } from "../components/wallet/connectors"
+import { injected } from "./connector"
 
 export default function Home() {
   const { active, account, library, connector, activate, deactivate } = useWeb3React()
@@ -19,6 +19,7 @@ export default function Home() {
       console.log(ex)
     }
   }
+
 
   return (
     <div className="flex flex-col items-center justify-center">
