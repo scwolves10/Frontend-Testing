@@ -34,22 +34,7 @@ const App = () => {
       
       
       <Dashboard />
-      <Page>
-      <GlobalStyle />
-      <BrowserRouter>
-        <TopBar />
-        <Switch>
-          <Route exact path="/balance" component={Balance} />
-          <Route exact path="/prices" component={Prices} />
-          <Route exact path="/block" component={Block} />
-          <Route exact path="/tokens" component={Tokens} />
-          <Route exact path="/send" component={SendEtherPage} />
-          <Route exact path="/transactions" component={Transactions} />
-          <Redirect exact from="/" to="/balance" />
-        </Switch>
-      </BrowserRouter>
-      <NotificationsList />
-    </Page>
+      
     </div>
   );
 }

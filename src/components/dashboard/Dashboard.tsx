@@ -153,7 +153,7 @@ export default function Dashboard() {
           </Typography>
 
           <IconButton color="inherit">
-          <ActivateButton />
+          
           </IconButton>
 
         </Toolbar>
