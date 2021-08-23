@@ -9,7 +9,6 @@ import { formatEther, formatUnits, useEthers } from '@ethersproject/units';
 import ConnectButton from "./components/ConnectButton";
 import { Web3ReactProvider } from '@web3-react/core'
 
-import { Page } from './components/base/base'
 /*
 import { GlobalStyle } from './global/GlobalStyle'
 import { Balance } from './pages/Balance'
