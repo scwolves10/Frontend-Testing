@@ -8,7 +8,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Title from './Title';
 import CryptoTracker from './CryptoTracker';
-import { ChainId, DAppProvider, useEthers, useEtherBalance, EtherBalance } from '@usedapp/core'
+import { ChainId, DAppProvider, useEthers, useEtherBalance } from '@usedapp/core'
 
 function preventDefault(event) {
   event.preventDefault();
@@ -42,7 +42,7 @@ export const cryptoNames = (
     <ListItem button>
       <ListItemText primary="Dogecoin" />
     </ListItem>
-    
+
   </div>
 );
 export default cryptoNames;
