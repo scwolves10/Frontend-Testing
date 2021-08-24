@@ -1,0 +1,392 @@
+export const Kashiabi = [
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"görli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"linkReferences": {},
+			"object": "608060405234801561001057600080fd5b506102af806100206000396000f3fe608060405234801561001057600080fd5b50600436106100cf5760003560e01c80638c5be1e51161008c578063be641c3f11610066578063be641c3f1461020e578063c8e512d8146100d4578063cf1d3f171461023a578063ddf252ad1461018d576100cf565b80638c5be1e51461018d5780639ed031131461018d5780639f9192b5146101f1576100cf565b806330a8c4f9146100d457806333af5ce8146101125780633a5151e51461014b5780636e853a5f146100d45780638ad4d3ff1461018d5780638be0079c146101c3575b600080fd5b610110600480360360808110156100ea57600080fd5b506001600160a01b03813581169160208101359091169060408101359060600135610260565b005b6101106004803603608081101561012857600080fd5b5080359060208101359067ffffffffffffffff6040820135169060600135610260565b610110600480360360a081101561016157600080fd5b506001600160a01b03813581169160208101359091169060408101359060608101359060800135610266565b610110600480360360608110156101a357600080fd5b506001600160a01b0381358116916020810135909116906040013561026d565b610110600480360360408110156101d957600080fd5b506001600160a01b0381358116916020013516610272565b6101106004803603602081101561020757600080fd5b5035610276565b6101106004803603604081101561022457600080fd5b506001600160a01b038135169060200135610272565b6101106004803603602081101561025057600080fd5b50356001600160a01b0316610276565b50505050565b5050505050565b505050565b5050565b5056fea2646970667358221220465ebbef81b17f9367883405b2c76aa27004fcf435ecb00918de632dd002998564736f6c634300060c0033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0x10 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH2 0x2AF DUP1 PUSH2 0x20 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0x10 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH2 0xCF JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x8C5BE1E5 GT PUSH2 0x8C JUMPI DUP1 PUSH4 0xBE641C3F GT PUSH2 0x66 JUMPI DUP1 PUSH4 0xBE641C3F EQ PUSH2 0x20E JUMPI DUP1 PUSH4 0xC8E512D8 EQ PUSH2 0xD4 JUMPI DUP1 PUSH4 0xCF1D3F17 EQ PUSH2 0x23A JUMPI DUP1 PUSH4 0xDDF252AD EQ PUSH2 0x18D JUMPI PUSH2 0xCF JUMP JUMPDEST DUP1 PUSH4 0x8C5BE1E5 EQ PUSH2 0x18D JUMPI DUP1 PUSH4 0x9ED03113 EQ PUSH2 0x18D JUMPI DUP1 PUSH4 0x9F9192B5 EQ PUSH2 0x1F1 JUMPI PUSH2 0xCF JUMP JUMPDEST DUP1 PUSH4 0x30A8C4F9 EQ PUSH2 0xD4 JUMPI DUP1 PUSH4 0x33AF5CE8 EQ PUSH2 0x112 JUMPI DUP1 PUSH4 0x3A5151E5 EQ PUSH2 0x14B JUMPI DUP1 PUSH4 0x6E853A5F EQ PUSH2 0xD4 JUMPI DUP1 PUSH4 0x8AD4D3FF EQ PUSH2 0x18D JUMPI DUP1 PUSH4 0x8BE0079C EQ PUSH2 0x1C3 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH2 0x110 PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x80 DUP2 LT ISZERO PUSH2 0xEA JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x1 PUSH1 0x1 PUSH1 0xA0 SHL SUB DUP2 CALLDATALOAD DUP2 AND SWAP2 PUSH1 0x20 DUP2 ADD CALLDATALOAD SWAP1 SWAP2 AND SWAP1 PUSH1 0x40 DUP2 ADD CALLDATALOAD SWAP1 PUSH1 0x60 ADD CALLDATALOAD PUSH2 0x260 JUMP JUMPDEST STOP JUMPDEST PUSH2 0x110 PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x80 DUP2 LT ISZERO PUSH2 0x128 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP DUP1 CALLDATALOAD SWAP1 PUSH1 0x20 DUP2 ADD CALLDATALOAD SWAP1 PUSH8 0xFFFFFFFFFFFFFFFF PUSH1 0x40 DUP3 ADD CALLDATALOAD AND SWAP1 PUSH1 0x60 ADD CALLDATALOAD PUSH2 0x260 JUMP JUMPDEST PUSH2 0x110 PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0xA0 DUP2 LT ISZERO PUSH2 0x161 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x1 PUSH1 0x1 PUSH1 0xA0 SHL SUB DUP2 CALLDATALOAD DUP2 AND SWAP2 PUSH1 0x20 DUP2 ADD CALLDATALOAD SWAP1 SWAP2 AND SWAP1 PUSH1 0x40 DUP2 ADD CALLDATALOAD SWAP1 PUSH1 0x60 DUP2 ADD CALLDATALOAD SWAP1 PUSH1 0x80 ADD CALLDATALOAD PUSH2 0x266 JUMP JUMPDEST PUSH2 0x110 PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x60 DUP2 LT ISZERO PUSH2 0x1A3 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x1 PUSH1 0x1 PUSH1 0xA0 SHL SUB DUP2 CALLDATALOAD DUP2 AND SWAP2 PUSH1 0x20 DUP2 ADD CALLDATALOAD SWAP1 SWAP2 AND SWAP1 PUSH1 0x40 ADD CALLDATALOAD PUSH2 0x26D JUMP JUMPDEST PUSH2 0x110 PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x40 DUP2 LT ISZERO PUSH2 0x1D9 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x1 PUSH1 0x1 PUSH1 0xA0 SHL SUB DUP2 CALLDATALOAD DUP2 AND SWAP2 PUSH1 0x20 ADD CALLDATALOAD AND PUSH2 0x272 JUMP JUMPDEST PUSH2 0x110 PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x20 DUP2 LT ISZERO PUSH2 0x207 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP CALLDATALOAD PUSH2 0x276 JUMP JUMPDEST PUSH2 0x110 PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x40 DUP2 LT ISZERO PUSH2 0x224 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x1 PUSH1 0x1 PUSH1 0xA0 SHL SUB DUP2 CALLDATALOAD AND SWAP1 PUSH1 0x20 ADD CALLDATALOAD PUSH2 0x272 JUMP JUMPDEST PUSH2 0x110 PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x20 DUP2 LT ISZERO PUSH2 0x250 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP CALLDATALOAD PUSH1 0x1 PUSH1 0x1 PUSH1 0xA0 SHL SUB AND PUSH2 0x276 JUMP JUMPDEST POP POP POP POP JUMP JUMPDEST POP POP POP POP POP JUMP JUMPDEST POP POP POP JUMP JUMPDEST POP POP JUMP JUMPDEST POP JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 CHAINID 0x5E 0xBB 0xEF DUP2 0xB1 PUSH32 0x9367883405B2C76AA27004FCF435ECB00918DE632DD002998564736F6C634300 MOD 0xC STOP CALLER ",
+			"sourceMap": "54:926:0:-:0;;;76:89;;;;;;;;;-1:-1:-1;54:926:0;;;;;;"
+		},
+		"deployedBytecode": {
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "608060405234801561001057600080fd5b50600436106100cf5760003560e01c80638c5be1e51161008c578063be641c3f11610066578063be641c3f1461020e578063c8e512d8146100d4578063cf1d3f171461023a578063ddf252ad1461018d576100cf565b80638c5be1e51461018d5780639ed031131461018d5780639f9192b5146101f1576100cf565b806330a8c4f9146100d457806333af5ce8146101125780633a5151e51461014b5780636e853a5f146100d45780638ad4d3ff1461018d5780638be0079c146101c3575b600080fd5b610110600480360360808110156100ea57600080fd5b506001600160a01b03813581169160208101359091169060408101359060600135610260565b005b6101106004803603608081101561012857600080fd5b5080359060208101359067ffffffffffffffff6040820135169060600135610260565b610110600480360360a081101561016157600080fd5b506001600160a01b03813581169160208101359091169060408101359060608101359060800135610266565b610110600480360360608110156101a357600080fd5b506001600160a01b0381358116916020810135909116906040013561026d565b610110600480360360408110156101d957600080fd5b506001600160a01b0381358116916020013516610272565b6101106004803603602081101561020757600080fd5b5035610276565b6101106004803603604081101561022457600080fd5b506001600160a01b038135169060200135610272565b6101106004803603602081101561025057600080fd5b50356001600160a01b0316610276565b50505050565b5050505050565b505050565b5050565b5056fea2646970667358221220465ebbef81b17f9367883405b2c76aa27004fcf435ecb00918de632dd002998564736f6c634300060c0033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0x10 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH2 0xCF JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x8C5BE1E5 GT PUSH2 0x8C JUMPI DUP1 PUSH4 0xBE641C3F GT PUSH2 0x66 JUMPI DUP1 PUSH4 0xBE641C3F EQ PUSH2 0x20E JUMPI DUP1 PUSH4 0xC8E512D8 EQ PUSH2 0xD4 JUMPI DUP1 PUSH4 0xCF1D3F17 EQ PUSH2 0x23A JUMPI DUP1 PUSH4 0xDDF252AD EQ PUSH2 0x18D JUMPI PUSH2 0xCF JUMP JUMPDEST DUP1 PUSH4 0x8C5BE1E5 EQ PUSH2 0x18D JUMPI DUP1 PUSH4 0x9ED03113 EQ PUSH2 0x18D JUMPI DUP1 PUSH4 0x9F9192B5 EQ PUSH2 0x1F1 JUMPI PUSH2 0xCF JUMP JUMPDEST DUP1 PUSH4 0x30A8C4F9 EQ PUSH2 0xD4 JUMPI DUP1 PUSH4 0x33AF5CE8 EQ PUSH2 0x112 JUMPI DUP1 PUSH4 0x3A5151E5 EQ PUSH2 0x14B JUMPI DUP1 PUSH4 0x6E853A5F EQ PUSH2 0xD4 JUMPI DUP1 PUSH4 0x8AD4D3FF EQ PUSH2 0x18D JUMPI DUP1 PUSH4 0x8BE0079C EQ PUSH2 0x1C3 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH2 0x110 PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x80 DUP2 LT ISZERO PUSH2 0xEA JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x1 PUSH1 0x1 PUSH1 0xA0 SHL SUB DUP2 CALLDATALOAD DUP2 AND SWAP2 PUSH1 0x20 DUP2 ADD CALLDATALOAD SWAP1 SWAP2 AND SWAP1 PUSH1 0x40 DUP2 ADD CALLDATALOAD SWAP1 PUSH1 0x60 ADD CALLDATALOAD PUSH2 0x260 JUMP JUMPDEST STOP JUMPDEST PUSH2 0x110 PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x80 DUP2 LT ISZERO PUSH2 0x128 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP DUP1 CALLDATALOAD SWAP1 PUSH1 0x20 DUP2 ADD CALLDATALOAD SWAP1 PUSH8 0xFFFFFFFFFFFFFFFF PUSH1 0x40 DUP3 ADD CALLDATALOAD AND SWAP1 PUSH1 0x60 ADD CALLDATALOAD PUSH2 0x260 JUMP JUMPDEST PUSH2 0x110 PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0xA0 DUP2 LT ISZERO PUSH2 0x161 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x1 PUSH1 0x1 PUSH1 0xA0 SHL SUB DUP2 CALLDATALOAD DUP2 AND SWAP2 PUSH1 0x20 DUP2 ADD CALLDATALOAD SWAP1 SWAP2 AND SWAP1 PUSH1 0x40 DUP2 ADD CALLDATALOAD SWAP1 PUSH1 0x60 DUP2 ADD CALLDATALOAD SWAP1 PUSH1 0x80 ADD CALLDATALOAD PUSH2 0x266 JUMP JUMPDEST PUSH2 0x110 PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x60 DUP2 LT ISZERO PUSH2 0x1A3 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x1 PUSH1 0x1 PUSH1 0xA0 SHL SUB DUP2 CALLDATALOAD DUP2 AND SWAP2 PUSH1 0x20 DUP2 ADD CALLDATALOAD SWAP1 SWAP2 AND SWAP1 PUSH1 0x40 ADD CALLDATALOAD PUSH2 0x26D JUMP JUMPDEST PUSH2 0x110 PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x40 DUP2 LT ISZERO PUSH2 0x1D9 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x1 PUSH1 0x1 PUSH1 0xA0 SHL SUB DUP2 CALLDATALOAD DUP2 AND SWAP2 PUSH1 0x20 ADD CALLDATALOAD AND PUSH2 0x272 JUMP JUMPDEST PUSH2 0x110 PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x20 DUP2 LT ISZERO PUSH2 0x207 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP CALLDATALOAD PUSH2 0x276 JUMP JUMPDEST PUSH2 0x110 PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x40 DUP2 LT ISZERO PUSH2 0x224 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x1 PUSH1 0x1 PUSH1 0xA0 SHL SUB DUP2 CALLDATALOAD AND SWAP1 PUSH1 0x20 ADD CALLDATALOAD PUSH2 0x272 JUMP JUMPDEST PUSH2 0x110 PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x20 DUP2 LT ISZERO PUSH2 0x250 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP CALLDATALOAD PUSH1 0x1 PUSH1 0x1 PUSH1 0xA0 SHL SUB AND PUSH2 0x276 JUMP JUMPDEST POP POP POP POP JUMP JUMPDEST POP POP POP POP POP JUMP JUMPDEST POP POP POP JUMP JUMPDEST POP POP JUMP JUMPDEST POP JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 CHAINID 0x5E 0xBB 0xEF DUP2 0xB1 PUSH32 0x9367883405B2C76AA27004FCF435ECB00918DE632DD002998564736F6C634300 MOD 0xC STOP CALLER ",
+			"sourceMap": "54:926:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;296:66;;;;;;;;;;;;;;;;-1:-1:-1;;;;;;296:66:0;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;230:63;;;;;;;;;;;;;;;;-1:-1:-1;230:63:0;;;;;;;;;;;;;;;;;;;:::i;430:72::-;;;;;;;;;;;;;;;;-1:-1:-1;;;;;;430:72:0;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;668:66::-;;;;;;;;;;;;;;;;-1:-1:-1;;;;;;668:66:0;;;;;;;;;;;;;;;;;:::i;860:59::-;;;;;;;;;;;;;;;;-1:-1:-1;;;;;;860:59:0;;;;;;;;;;:::i;505:46::-;;;;;;;;;;;;;;;;-1:-1:-1;505:46:0;;:::i;803:54::-;;;;;;;;;;;;;;;;-1:-1:-1;;;;;;803:54:0;;;;;;;;:::i;554:39::-;;;;;;;;;;;;;;;;-1:-1:-1;554:39:0;-1:-1:-1;;;;;554:39:0;;:::i;296:66::-;;;;;:::o;430:72::-;;;;;;:::o;668:66::-;;;;:::o;860:59::-;;;:::o;505:46::-;;:::o"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "137400",
+				"executionCost": "183",
+				"totalCost": "137583"
+			},
+			"external": {
+				"Approval(address,address,uint256)": "275",
+				"LogAccrue(uint256,uint256,uint64,uint256)": "268",
+				"LogAddAsset(address,address,uint256,uint256)": "270",
+				"LogAddCollateral(address,address,uint256)": "297",
+				"LogBorrow(address,address,uint256,uint256,uint256)": "331",
+				"LogExchangeRate(uint256)": "255",
+				"LogFeeTo(address)": "272",
+				"LogRemoveAsset(address,address,uint256,uint256)": "336",
+				"LogRemoveCollateral(address,address,uint256)": "341",
+				"LogRepay(address,address,uint256,uint256)": "313",
+				"LogWithdrawFees(address,uint256)": "245",
+				"OwnershipTransferred(address,address)": "340",
+				"Transfer(address,address,uint256)": "340"
+			}
+		},
+		"methodIdentifiers": {
+			"Approval(address,address,uint256)": "8c5be1e5",
+			"LogAccrue(uint256,uint256,uint64,uint256)": "33af5ce8",
+			"LogAddAsset(address,address,uint256,uint256)": "30a8c4f9",
+			"LogAddCollateral(address,address,uint256)": "9ed03113",
+			"LogBorrow(address,address,uint256,uint256,uint256)": "3a5151e5",
+			"LogExchangeRate(uint256)": "9f9192b5",
+			"LogFeeTo(address)": "cf1d3f17",
+			"LogRemoveAsset(address,address,uint256,uint256)": "6e853a5f",
+			"LogRemoveCollateral(address,address,uint256)": "8ad4d3ff",
+			"LogRepay(address,address,uint256,uint256)": "c8e512d8",
+			"LogWithdrawFees(address,uint256)": "be641c3f",
+			"OwnershipTransferred(address,address)": "8be0079c",
+			"Transfer(address,address,uint256)": "ddf252ad"
+		}
+	},
+	"abi": [
+		{
+			"inputs": [],
+			"stateMutability": "nonpayable",
+			"type": "constructor"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				},
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				},
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"name": "Approval",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint64",
+					"name": "",
+					"type": "uint64"
+				},
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"name": "LogAccrue",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				},
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				},
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"name": "LogAddAsset",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				},
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				},
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"name": "LogAddCollateral",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				},
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				},
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"name": "LogBorrow",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"name": "LogExchangeRate",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				}
+			],
+			"name": "LogFeeTo",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				},
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				},
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"name": "LogRemoveAsset",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				},
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				},
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"name": "LogRemoveCollateral",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				},
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				},
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"name": "LogRepay",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				},
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"name": "LogWithdrawFees",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				},
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				}
+			],
+			"name": "OwnershipTransferred",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				},
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				},
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"name": "Transfer",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		}
+	]
+}
+]
